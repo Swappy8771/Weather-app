@@ -1,0 +1,55 @@
+/* styles.css */
+
+.weather-app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-app h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.weather-app select,
+.weather-app button {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.weather-app button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-app button:hover {
+  background-color: #45a049;
+}
+
+.weather-app select {
+  width: 150px;
+}
+
+.weather-app select,
+.weather-app button {
+  border-radius: 5px;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
